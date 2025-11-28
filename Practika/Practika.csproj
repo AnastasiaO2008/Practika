@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="IMG\Снимок экрана 2025-11-28 135753.png" />
+    <None Remove="IMG\Снимок экрана 2025-11-28 161522-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="Снимок экрана 2025-11-28 165237-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="Снимок экрана 2025-11-28 165502-no-bg-preview %28carve.photos%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 135753.png" />
+    <Resource Include="IMG\Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" />
+    <Resource Include="Снимок экрана 2025-11-28 165237-no-bg-preview (carve.photos).png" />
+    <Resource Include="Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png" />
+  </ItemGroup>
+
 </Project>

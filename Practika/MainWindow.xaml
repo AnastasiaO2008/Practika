@@ -5,9 +5,159 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practika"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="176,159,0,0" VerticalAlignment="Top" Height="44" Width="347"/>
+        Title="MainWindow" Height="450" Width="677" Cursor="" Background="#FFCAEDE9">
+    <Grid Margin="0,0,88,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="557*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox HorizontalAlignment="Left" Margin="240,118,0,0" TextWrapping="Wrap" Text="Délicatesse " FontFamily="Arial" FontSize=" 30" FontWeight="Bold"  Foreground="#654321" VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged" Height="39" Grid.Column="1" Background="#FFCAEDE9"/>
+        <Image Grid.Column="1" Margin="214,12,117,312" Source="/IMG/Снимок экрана 2025-11-28 135753.png"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="278,157,0,0" TextWrapping="Wrap" Text="B A K E R Y" FontFamily="Arial" FontSize="16" Foreground="#654321" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1" Background="#FFCAEDE9"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="223,217,0,0" TextWrapping="Wrap" Text="R E G I S T R A T I O N" FontFamily="Arial" FontWeight="Bold"  FontSize="20" Foreground="#654321" VerticalAlignment="Top" Width="227" TextChanged="TextBox_TextChanged_1" Background="#FFCAEDE9"/>
+        <Image Grid.Column="1" Margin="223,162,116,185" Source="/Снимок экрана 2025-11-28 165237-no-bg-preview (carve.photos).png"/>
+        
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
+        Margin="203,249,107,0" VerticalAlignment="Top"
+        CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Name="FirstNameBox"
+                 Margin="10,0"
+                 FontSize="16"
+                 VerticalAlignment="Center"
+                 Foreground="Black"
+                 />
+
+                <TextBlock Text="First name"
+                   Margin="15,0"
+                   VerticalAlignment="Center"
+                   Foreground="Gray"
+                   IsHitTestVisible="False"
+                   FontSize="16">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=FirstNameBox}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Text, ElementName=FirstNameBox}">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <Border Grid.Column="1" Background="#D7C3AA">
+                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Stretch="Uniform" Margin="-2,0,0,0" Height="51" VerticalAlignment="Top" RenderTransformOrigin="0.579,1.066"/>
+                </Border>
+            </Grid>
+        </Border>
+
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
+        Margin="203,304,107,0" VerticalAlignment="Top"
+        CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Name="LastNameBox"
+                 Margin="10,0"
+                 FontSize="16"
+                 VerticalAlignment="Center"
+                 Foreground="Black"/>
+
+                <TextBlock Text="Last name"
+                   Margin="15,0"
+                   VerticalAlignment="Center"
+                   Foreground="Gray"
+                   IsHitTestVisible="False"
+                   FontSize="16">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=LastNameBox}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Text, ElementName=LastNameBox}">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Border Grid.Column="1" Background="#D7C3AA"/>
+            </Grid>
+        </Border>
+
+
+        <!-- CODE -->
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
+        Margin="203,359,107,0" VerticalAlignment="Top"
+        CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Name="CodeBox"
+                 Margin="10,0"
+                 FontSize="16"
+                 VerticalAlignment="Center"
+                 Foreground="Black"/>
+
+                <TextBlock Text="Your code"
+                   Margin="15,0"
+                   VerticalAlignment="Center"
+                   Foreground="Gray"
+                   IsHitTestVisible="False"
+                   FontSize="16">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=CodeBox}" Value="">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Text, ElementName=CodeBox}">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+
+                <Border Grid.Column="1" Background="#D7C3AA"/>
+            </Grid>
+        </Border>
+        <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Margin="377,306,107,83" Grid.Column="1"
+      />
+        <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Margin="377,359,107,30" Grid.Column="1"
+      />
+
+        <Image Grid.Column="1" Margin="156,381,69,-5" Source="/Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png"/>
+        <Button Width="45" Height="44"
+        Background="Transparent"
+        BorderThickness="0"
+        HorizontalAlignment="Right"
+        VerticalAlignment="Top"
+        Margin="0,12,526,0"
+        Click="ExitButton_Click" Grid.ColumnSpan="2">
+
+            <Image Source="/IMG/Снимок экрана 2025-11-28 170451-no-bg-preview (carve.photos).png"
+           Stretch="Uniform" RenderTransformOrigin="1.975,0.978"/>
+        </Button>
 
     </Grid>
 </Window>
