@@ -9,17 +9,85 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="IMG\Снимок экрана 2025-11-28 135753.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %281%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %282%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %283%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %284%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %285%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %286%29.png" />
+    <None Remove="IMG\image-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="IMG\pfpfpf.png" />
+    <None Remove="IMG\Screenshot 2025-11-29 114302-edited-free %28carve.photos%29.png" />
+    <None Remove="IMG\Screenshot 2025-11-29 114302-edited-free %28carve_ph-edited-free %28carve.photos%29.png" />
+    <None Remove="IMG\Screenshot 2025-11-29 122911-no-bg-preview %28carve.photos%29 %281%29.png" />
+    <None Remove="IMG\Screenshot 2025-11-29 122911-no-bg-preview %28carve.photos%29.png" />
     <None Remove="IMG\Снимок экрана 2025-11-28 161522-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="IMG\Снимок экрана 2025-11-28 165237.png" />
+    <None Remove="IMG\Снимок экрана 2025-11-28 165502 — копия.png" />
+    <None Remove="IMG\Снимок экрана 2025-11-28 170451-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="Снимок экрана 2025-11-28 135753-no-bg-preview %28carve.photos%29.png" />
     <None Remove="Снимок экрана 2025-11-28 165237-no-bg-preview %28carve.photos%29.png" />
     <None Remove="Снимок экрана 2025-11-28 165502-no-bg-preview %28carve.photos%29.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="IMG\Снимок экрана 2025-11-28 135753.png" />
-    <Resource Include="IMG\Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" />
-    <Resource Include="Снимок экрана 2025-11-28 165237-no-bg-preview (carve.photos).png" />
-    <Resource Include="Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png" />
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (1).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (2).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (3).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (4).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (5).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos) (6).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\image-no-bg-preview (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\pfpfpf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Screenshot 2025-11-29 114302-edited-free (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Screenshot 2025-11-29 114302-edited-free (carve_ph-edited-free (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Screenshot 2025-11-29 122911-no-bg-preview (carve.photos) (1).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Screenshot 2025-11-29 122911-no-bg-preview (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 165237.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 165502 — копия.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 170451-no-bg-preview (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 135753-no-bg-preview %28carve.photos%29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 165237-no-bg-preview %28carve.photos%29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Снимок экрана 2025-11-28 165502-no-bg-preview %28carve.photos%29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
