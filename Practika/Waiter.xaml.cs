@@ -1,22 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Practika
 {
-    /// <summary>
-    /// Логика взаимодействия для Waiter.xaml
-    /// </summary>
     public partial class Waiter : Window
     {
         public Waiter()
@@ -26,12 +13,31 @@ namespace Practika
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Orders button clicked!");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("Table button clicked!");
+        }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Table button clicked!");
+        }
 
+        private void PhotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Left photo button clicked!");
+        }
+
+        private void PhotoButton2_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Right photo button clicked!");
+        }
+
+        private void CircleButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Circle button clicked!");
         }
     }
 }

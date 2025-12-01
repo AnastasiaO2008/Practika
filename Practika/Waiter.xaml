@@ -9,126 +9,170 @@
 
     <Grid Background="#FFCAEDE9">
 
-        <TextBlock HorizontalAlignment="Left" Margin="299,0,0,0" 
-                   TextWrapping="Wrap" Text="Anastasia Anisimova" 
-                   FontFamily="Arial" FontSize="25" Foreground="#654321" 
-                   VerticalAlignment="Center"/>
+        <!-- Header name -->
+        <TextBlock HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Width="250"
+                   Height="30"
+                   Margin="30,210,0,0"
+                   Text="Anastasia Anisimova"
+                   TextWrapping="Wrap"
+                   FontFamily="Arial"
+                   FontSize="25"
+                   Foreground="#654321"/>
 
-        <Button Content="" HorizontalAlignment="Left" Margin="119,300,0,0" 
-                VerticalAlignment="Top" Height="116" Width="160" Background="#FFDAC7B3"/>
-
-        <Button HorizontalAlignment="Left" Margin="335,300,0,0" 
-                VerticalAlignment="Top" Height="116" Width="148" Background="#FFDAC7B3" Click="Button_Click" RenderTransformOrigin="0.534,1.174"/>
-
-        <Button Content="" HorizontalAlignment="Left" Margin="543,300,0,0" 
-                VerticalAlignment="Top" Height="116" Width="168" Background="#FFDAC7B3" Click="Button_Click_1"/>
-
-        <Grid Width="434" Height="117"  
-              HorizontalAlignment="Left" 
-              VerticalAlignment="Top" 
-              Margin="188,56,0,0">
-            <Rectangle Fill="#DAC7B3" Margin="30,0,30,38"/>
-        </Grid>
-
-        <Image Margin="467,56,208,300" 
-               Source="/pfpfpf.png" 
-               Stretch="Fill" 
-               RenderTransformOrigin="0.484,0.211">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="4"/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-
-
-
-        <Image Margin="218,56,457,300" 
-            Source="/pfpfpf.png" 
-            Stretch="Fill" 
-            RenderTransformOrigin="0.484,0.211">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="-1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="4"/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image Margin="351,56,330,300" 
-            Source="/pfpfpf.png" 
-            Stretch="Fill" 
-            RenderTransformOrigin="0.484,0.211">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform ScaleX="1"/>
-                    <SkewTransform/>
-                    <RotateTransform/>
-                    <TranslateTransform X="4"/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-
-
-        <Image Margin="471,56,205,303" Source="/IMG/pfpfpf.png" Stretch="Fill"/>
-        <Image Margin="348,56,328,303" Source="/IMG/pfpfpf.png" Stretch="Fill"/>
-
-        <Image Margin="224,56,452,303" Source="/IMG/pfpfpf.png" Stretch="Fill"/>
-        <Border x:Name="ama" Width="114" Height="111"
-HorizontalAlignment="Center"
-VerticalAlignment="Top"
-Margin="0,87,0,0"
-Background="White"
-CornerRadius="75"
-BorderBrush="White"
-BorderThickness="5"/>
-        <Image Margin="347,87,347,234" Source="/IMG/Screenshot 2025-11-29 122911-no-bg-preview (carve.photos) (1).png" Stretch="Fill" RenderTransformOrigin="-0.343,-0.296"/>
-        <TextBlock HorizontalAlignment="Left" Margin="170,382,0,0" TextWrapping="Wrap" Text="MENU" FontFamily="Arial" FontSize="20" Foreground="#654321"  VerticalAlignment="Top" RenderTransformOrigin="0.645,0.611"/>
-        <TextBlock HorizontalAlignment="Left" Margin="366,382,0,0" TextWrapping="Wrap" Text="ORDERS" FontFamily="Arial" FontSize="20" Foreground="#654321"  VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="596,382,0,0" TextWrapping="Wrap" Text="TABLE" FontFamily="Arial" FontSize="20" Foreground="#654321"  VerticalAlignment="Top"/>
-        <Image Margin="153,300,563,41" Source="/image-no-bg-preview (carve.photos) (1).png" Stretch="Fill" RenderTransformOrigin="0.52,0.874"/>
-        <Image Margin="371,306,353,46" Source="/image-no-bg-preview (carve.photos) (2).png" Stretch="Fill"/>
-        <Image Margin="575,306,121,53" Source="/image-no-bg-preview (carve.photos) (3).png" Stretch="Fill"/>
-        <Border Width="36" Height="36"
-        HorizontalAlignment="Left"
+        <!-- Buttons -->
+        <Button Width="148" Height="116"
+        HorizontalAlignment="Center"
         VerticalAlignment="Top"
-        Margin="234,59,0,0"
-        Background="White"
-        CornerRadius="75"
-        BorderBrush="#FF654321"
-        BorderThickness="2" RenderTransformOrigin="0.694,0.64">
-        </Border>
-        <Border Width="36" Height="36"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Margin="538,59,0,0"
-            Background="White"
-            CornerRadius="75"
-            BorderBrush="#FF654321"
-            BorderThickness="2"/>
-        <Image Margin="228,55,522,336" Source="/image-no-bg-preview (carve.photos) (4).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-0.637"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <Image Margin="544,65,232,345" Source="/image-no-bg-preview (carve.photos) (5).png" Stretch="Fill"/>
-        <Image Margin="720,10,32,357" Source="/image-no-bg-preview (carve.photos) (6).png" Stretch="Fill"/>
-        <Image Margin="28,27,730,354" Source="/IMG/Снимок экрана 2025-11-28 170451-no-bg-preview (carve.photos).png" Stretch="Fill"/>
-        <Image Margin="154,300,564,41" Source="/IMG/image-no-bg-preview (carve.photos) (1).png" Stretch="Fill"/>
-        <Image Margin="369,307,359,48" Source="/IMG/image-no-bg-preview (carve.photos) (2).png" Stretch="Fill"/>
-        <Image Margin="571,300,118,45" Source="/IMG/image-no-bg-preview (carve.photos) (3).png" Stretch="Fill"/>
-        <Image Margin="227,50,521,325" Source="/IMG/image-no-bg-preview (carve.photos) (4).png" Stretch="Fill"/>
-        <Image Margin="537,65,226,340" Source="/IMG/image-no-bg-preview (carve.photos) (5).png" Stretch="Fill"/>
-        <Image Margin="720,17,32,354" Source="/IMG/image-no-bg-preview (carve.photos) (6).png" Stretch="Fill"/>
-    </Grid>
+        Margin="-400,300,0,0"
+        Background="#FFDAC7B3"
+        Click="Button_Click_2">
+            <Button.Content>
+                <Image Source="/IMG/image-no-bg-preview (carve.photos) (1).png"
+                 Margin="-5,-20,0,0"      
+               Width="80"
+               Height="77"
+               Stretch="Fill"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+            </Button.Content>
+        </Button>
 
+
+        <Button Width="148" Height="116"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        
+        Margin="33,300,0,0"
+        Background="#FFDAC7B3"
+        Click="Button_Click"
+        RenderTransformOrigin="0.534,1.174">
+            <Button.Content>
+                <Image Source="/IMG/image-no-bg-preview (carve.photos) (2).png"
+               Margin="-5,-20,0,0"
+               Width="80"
+               Height="77"
+               Stretch="Fill"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"/>
+            </Button.Content>
+        </Button>
+
+
+        <Button Width="148" Height="116"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        Margin="500,300,0,0"
+        Background="#FFDAC7B3"
+        Click="Button_Click_1">
+            <Button.Content>
+                <Image Source="/IMG/image-no-bg-preview (carve.photos) (3).png"
+               Margin="-5,-20,0,0"
+               Width="90"
+               Height="80"
+               Stretch="Fill"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"/>
+            </Button.Content>
+        </Button>
+
+
+        <StackPanel Width="380" Height="80" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0 55 0 0" Background="#FFDAC7B3" Orientation="Horizontal">
+            <Image Source="/IMG/pfpfpf.png"></Image>
+            <Image Source="/IMG/pfpfpf.png"></Image>
+            <Image Source="/IMG/pfpfpf.png"></Image>
+        </StackPanel>
+
+        <!-- Images (mirrored) -->
+
+
+
+
+        <!-- User avatar container -->
+        <Border x:Name="ama"
+                Width="114"
+                Height="111"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Margin="0,87,0,0"
+                Background="White"
+                CornerRadius="75"
+                BorderBrush="White"
+                BorderThickness="5"/>
+
+        <Image Width="114" Height="111" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,87,0,0"
+               Source="/IMG/Screenshot 2025-11-29 122911-no-bg-preview (carve.photos) (1).png"
+               Stretch="Fill"
+               RenderTransformOrigin="-0.343,-0.296"/>
+
+        <!-- Text under buttons -->
+        <TextBlock HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="170,382,0,0"
+                   Text="MENU"
+                   TextWrapping="Wrap"
+                   FontFamily="Arial"
+                   FontSize="20"
+                   Foreground="#654321"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="366,382,0,0"
+                   Text="ORDERS"
+                   TextWrapping="Wrap"
+                   FontFamily="Arial"
+                   FontSize="20"
+                   Foreground="#654321"/>
+
+        <TextBlock HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="620,382,0,0"
+                   Text="TABLE"
+                   TextWrapping="Wrap"
+                   FontFamily="Arial"
+                   FontSize="20"
+                   Foreground="#654321"/>
+             <!-- Circle icon -->
+        <Button Width="36" Height="36"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        Margin="314,59,0,0"
+        BorderThickness="2"
+        BorderBrush="#FF654321"
+        Background="White"
+        Click="PhotoButton_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="18" 
+                    Background="{TemplateBinding Background}" 
+                    BorderBrush="{TemplateBinding BorderBrush}" 
+                    BorderThickness="{TemplateBinding BorderThickness}">
+                        <Image Source="/IMG/image-no-bg-preview (carve.photos) (5).png"
+                       Stretch="Uniform"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Button Width="60" Height="70" BorderThickness="0" Click="PhotoButton2_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 20 30 0">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG/bell.png"/>
+            </Button.Background>
+        </Button>
+        <!-- Background images -->
+
+        <Button  BorderThickness="0" Click="PhotoButton_Click" Width="60" Height="70" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 20 0 0">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG/exit.png"/>
+            </Button.Background>
+        </Button>
+
+
+       
+
+      
+
+
+    </Grid>
 </Window>

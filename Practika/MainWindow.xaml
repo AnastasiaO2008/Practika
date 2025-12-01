@@ -12,14 +12,14 @@
             <ColumnDefinition Width="557*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock HorizontalAlignment="Left" Margin="240,118,0,0" TextWrapping="Wrap" Text="Délicatesse " FontFamily="Arial" FontSize=" 30" FontWeight="Bold"  Foreground="#654321" VerticalAlignment="Top" Width="174" Height="39" Grid.Column="1" Background="#FFCAEDE9"/>
-        <Image Grid.Column="1" Margin="214,12,117,312" Source="/IMG/Снимок экрана 2025-11-28 135753.png"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="278,157,0,0" TextWrapping="Wrap" Text="B A K E R Y" FontFamily="Arial" FontSize="16" Foreground="#654321" VerticalAlignment="Top" Width="120" Background="#FFCAEDE9"/>
-        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="223,217,0,0" TextWrapping="Wrap" Text="R E G I S T R A T I O N" FontFamily="Arial" FontWeight="Bold"  FontSize="20" Foreground="#654321" VerticalAlignment="Top" Width="227" Background="#FFCAEDE9"/>
-        <Image Grid.Column="1" Margin="221,170,118,204" Source="/Снимок экрана 2025-11-28 165237-no-bg-preview (carve.photos).png"/>
+        <TextBlock HorizontalAlignment="Center" Margin="90,118,0,0" TextWrapping="Wrap" Text="Délicatesse " FontFamily="Arial" FontSize=" 30" FontWeight="Bold"  Foreground="#654321" VerticalAlignment="Top" Width="174" Height="39" Grid.Column="1" Background="#FFCAEDE9"/>
+        <Image Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="190" Height="100" Margin="224,18,143,316" Source="/IMG/Снимок экрана 2025-11-28 135753-no-bg-preview (carve.photos).png"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="100,157,0,0" TextWrapping="Wrap" Text="B A K E R Y" FontFamily="Arial" FontSize="16" Foreground="#654321" VerticalAlignment="Top" Width="120" Background="#FFCAEDE9"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="100,217,0,0" TextWrapping="Wrap" Text="R E G I S T R A T I O N" FontFamily="Arial" FontWeight="Bold"  FontSize="20" Foreground="#654321" VerticalAlignment="Top" Width="227" Background="#FFCAEDE9"/>
+        <Image Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="80" Margin="190,162,107,192" Source="/IMG/Снимок экрана 2025-11-28 165237-no-bg-preview (carve.photos).png"/>
 
-        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
-        Margin="203,249,107,0" VerticalAlignment="Top"
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45" Width="250"
+        Margin="197,244,113,0" VerticalAlignment="Top"  HorizontalAlignment="Center"
         CornerRadius="5">
             <Grid ShowGridLines="True">
                 <Grid.ColumnDefinitions>
@@ -37,6 +37,7 @@
                 <TextBlock Text="First name"
                    Margin="15,0"
                    VerticalAlignment="Center"
+                           
                    Foreground="Gray"
                    IsHitTestVisible="False"
                    FontSize="16">
@@ -55,13 +56,13 @@
                     </TextBlock.Style>
                 </TextBlock>
                 <Border Grid.Column="1" Background="#D7C3AA">
-                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Stretch="Uniform" Margin="-2,0,0,0" Height="51" VerticalAlignment="Top" RenderTransformOrigin="0.579,1.066"/>
+                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Stretch="Uniform" Margin="-2,0,0,0" Height="51" Width="91" VerticalAlignment="Top" RenderTransformOrigin="0.579,1.066"/>
                 </Border>
             </Grid>
         </Border>
 
-        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
-        Margin="203,304,107,0" VerticalAlignment="Top"
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45" Width="250"
+        Margin="197,299,113,0" VerticalAlignment="Top" HorizontalAlignment="Center"
         CornerRadius="5">
             <Grid ShowGridLines="True">
                 <Grid.ColumnDefinitions>
@@ -97,15 +98,15 @@
                 </TextBlock>
 
                 <Border Grid.Column="1" Background="#D7C3AA">
-                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" />
+                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Height="45" Width="90" />
                 </Border>
             </Grid>
         </Border>
 
 
         <!-- CODE -->
-        <Border Grid.Column="1" Background="#F5F3EE" Height="45"
-        Margin="203,359,107,0" VerticalAlignment="Top"
+        <Border Grid.Column="1" Background="#F5F3EE" Height="45" Width="250"
+        Margin="197,354,113,0" VerticalAlignment="Top" HorizontalAlignment="Center"
         CornerRadius="5">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -141,16 +142,15 @@
                 </TextBlock>
 
                 <Border Grid.Column="1" Background="#D7C3AA">
-                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" />
+                    <Image Source="/IMG/Снимок экрана 2025-11-28 161522-no-bg-preview (carve.photos).png" Height="45" Width="90"/>
                 </Border>
             </Grid>
         </Border>
 
 
 
-        <Image Grid.Column="1" Margin="160,381,65,-5" Source="/Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png"/>
-        <Image Source="/IMG/Снимок экрана 2025-11-28 170451-no-bg-preview (carve.photos).png"
-           Stretch="Uniform" RenderTransformOrigin="1.975,0.978" Margin="21,21,503,367" Grid.ColumnSpan="2"/>
-        <Image Grid.Column="1" Margin="432,4,-129,349" Source="/IMG/image-no-bg-preview (carve.photos).png"/>
+        <Image Grid.Column="1" Margin="154,376,71,0" Source="/Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png"/>
+        <Image Source="/IMG/exit.png" Width="60" Height="70" Stretch="Uniform" RenderTransformOrigin="1.975,0.978"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,18,497,346" Grid.Column="1"/>
+        <Image Grid.Column="1"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="80" Margin="190,400,107,0" Source="/IMG/Снимок экрана 2025-11-28 165502-no-bg-preview (carve.photos).png"/>
     </Grid>
 </Window>
