@@ -25,10 +25,11 @@ namespace Practika
             MessageBox.Show("Table button clicked!");
         }
 
-        private void PhotoButton_Click(object sender, RoutedEventArgs e)
+        private void PhotoButton_Click3(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Left photo button clicked!");
+            Application.Current.Shutdown();
         }
+        
 
         private void PhotoButton2_Click(object sender, RoutedEventArgs e)
         {
@@ -38,6 +39,10 @@ namespace Practika
         private void CircleButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Circle button clicked!");
+        }
+        private void PhotoButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("photo button clicked!");
         }
     }
 }

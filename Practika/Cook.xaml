@@ -1,11 +1,11 @@
-﻿<Window x:Class="Practika.Waiter"
+﻿<Window x:Class="Practika.Cook"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practika"
         mc:Ignorable="d"
-        Title="Waiter" Height="450" Width="800">
+        Title="Cook" Height="450" Width="800">
 
     <Grid Background="#FFCAEDE9">
 
@@ -15,16 +15,16 @@
                    VerticalAlignment="Top"
                    Width="250"
                    Height="30"
-                   Margin="30,210,0,0"
-                   Text="Anastasia Anisimova"
+                   Margin="90,210,0,0"
+                   Text="Maxim Lavrov"
                    TextWrapping="Wrap"
                    FontFamily="Arial"
                    FontSize="25"
                    Foreground="#654321"
                    />
 
-        
-        
+
+
         <!-- Buttons -->
         <Button Width="148" Height="116"
         HorizontalAlignment="Center"
@@ -69,7 +69,7 @@
         Background="#FFDAC7B3"
         Click="Button_Click_1">
             <Button.Content>
-                <Image Source="/IMG/image-no-bg-preview (carve.photos) (3).png"
+                <Image Source="/IMG/2.png"
                Margin="-5,-20,0,0"
                Width="90"
                Height="80"
@@ -103,8 +103,8 @@
                 BorderBrush="White"
                 BorderThickness="5"/>
 
-        <Image Width="114" Height="111" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,87,0,0"
-               Source="/IMG/Screenshot 2025-11-29 122911-no-bg-preview (carve.photos) (1).png"
+        <Image Width="140" Height="145" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="-8,77,0,0"
+               Source="/IMG/1.png"
                Stretch="Fill"
                RenderTransformOrigin="-0.343,-0.296"/>
 
@@ -130,12 +130,12 @@
         <TextBlock HorizontalAlignment="Center"
                    VerticalAlignment="Top"
                    Margin="500,380,0,0"
-                   Text="TABLE"
+                   Text="RECIPES"
                    TextWrapping="Wrap"
                    FontFamily="Arial"
                    FontSize="20"
                    Foreground="#654321"/>
-             <!-- Circle icon -->
+        <!-- Circle icon -->
         <Button Width="36" Height="36"
         HorizontalAlignment="Center"
         VerticalAlignment="Top"
@@ -170,11 +170,6 @@
             </Button.Background>
         </Button>
 
-
-       
-
-      
-
-
     </Grid>
+
 </Window>

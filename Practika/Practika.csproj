@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="IMG\1.png" />
+    <None Remove="IMG\2.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %281%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %282%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %283%29.png" />
@@ -29,6 +31,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="IMG\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="IMG\image-no-bg-preview (carve.photos) (1).png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
