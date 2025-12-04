@@ -27,9 +27,13 @@ namespace Practika
 
         private void PhotoButton_Click3(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            if (MessageBox.Show("Выйти из аккаунта?", "Выход",
+                MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                Application.Current.Shutdown();
+            }
         }
-        
+
 
         private void PhotoButton2_Click(object sender, RoutedEventArgs e)
         {

@@ -1,52 +1,41 @@
 ﻿using System;
 using System.Windows;
-using System.Windows.Controls;
-using Microsoft.Win32;
-using System.Windows.Media.Imaging;
 
 namespace Practika
 {
-    /// <summary>
-    /// Логика взаимодействия для Cook.xaml
-    /// </summary>
-    public partial class Cook : Window
+    public partial class Administrator : Window
     {
-        public Cook()
+        public Administrator()
         {
             InitializeComponent();
         }
 
-        // BUTTON: MENU
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Открываем меню!");
+            MessageBox.Show("Открытие раздела SUPPLIES");
+
         }
 
-        // BUTTON: ORDERS
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Открываем заказы!");
+            MessageBox.Show("Открытие раздела BOOKING");
         }
 
-        // BUTTON: RECIPES
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Открываем рецепты!");
+            MessageBox.Show("Открытие раздела PRODUCTS");
         }
 
-        // ROUND BUTTON (little icon)
         private void PhotoButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Нажата круглая кнопка!");
+            MessageBox.Show("Открытие профиля пользователя");
         }
 
-        // BELL BUTTON
         private void PhotoButton2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Уведомления!");
+            MessageBox.Show("Уведомления");
         }
 
-        // EXIT BUTTON
         private void PhotoButton_Click3(object sender, RoutedEventArgs e)
         {
             if (MessageBox.Show("Выйти из аккаунта?", "Выход",
