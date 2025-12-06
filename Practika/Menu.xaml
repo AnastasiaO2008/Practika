@@ -22,9 +22,9 @@
                            FontFamily="Georgia" 
                            FontSize="30" 
                            Foreground="#C48F4B"
-                           HorizontalAlignment="Left"
+                           HorizontalAlignment="Center"
                            VerticalAlignment="Top"
-                           Margin="236,10,0,0" RenderTransformOrigin="0.526,1.379"/>
+                           Margin="14,10,0,0" RenderTransformOrigin="0.526,1.379"/>
 
                 <!-- Délicatesse -->
                 <TextBlock Text="Délicatesse" 
@@ -40,14 +40,25 @@
                            FontFamily="Georgia" 
                            FontSize="18" 
                            Foreground="#C49B6D"
-                           HorizontalAlignment="Left"
+                           HorizontalAlignment="Center"
                            VerticalAlignment="Top"
-                           Margin="247,191,0,0"/>
+                           Margin="14,191,0,0"/>
             </Grid>
         </Border>
 
-        <Image Margin="87,0,554,730" Source="/IMG/21.png" Stretch="Fill"/>
-        <Image Margin="546,0,86,730" Source="/IMG/21.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        <Image Margin="87,0,554,730" Source="/IMG/21.png"
+                       Width="180"
+                       Height="200"
+                       Stretch="Fill"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"/>
+
+        <Image Margin="480,0,0,0" Source="/IMG/21.png"
+                Width="180"
+                Height="200"
+                Stretch="Fill"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -58,136 +69,170 @@
             </Image.RenderTransform>
         </Image>
 
+
         <!-- Линия 1: Между первыми двумя изображениями -->
         <Line X1="36" X2="306" 
               Y1="805" Y2="805" 
               Stroke="#FF775D49" 
               StrokeThickness="4"
-               Margin="102,3,69,0"/>
+               Margin="-250,3,69,0"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"/>
 
         <!-- Вертикальная линия 1 -->
         <Line X1="311" X2="311" 
               Y1="820" Y2="885" 
               Stroke="#FF775D49" 
-              StrokeThickness="4"/>
+              StrokeThickness="4"
+               Margin="-490,3,69,0"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"/>
 
-
-        <Image Margin="336,98,336,711" Source="/image-no-bg-preview (carve.photos) (4).png" Stretch="Fill"/>
-        <Image Margin="316,98,352,711" Source="/IMG/22.png" Stretch="Fill"/>
+        <Image Margin="320,98,352,711" Source="/IMG/22.png" Stretch="Fill"
+               Width="130"
+               Height="160"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"/>
 
         <!-- Линия 2: Между второй парой изображений -->
         <Line X1="36" X2="306" 
               Y1="460" Y2="460" 
               Stroke="#FF775D49" 
               StrokeThickness="4"
-              Margin="102,-70,10,100"/>
+              Margin="-300,-70,10,100"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"/>
 
         <!-- Вертикальная линия 2 -->
         <Line X1="201" X2="201" 
               Y1="470" Y2="540" 
               Stroke="#FF775D49" 
               StrokeThickness="4"
-              Margin="102,-70,10,100"/>
+              Margin="-420,-70,10,100"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"/>
 
-        <Image Margin="470,240,10,461" Source="/image-no-bg-preview (carve.photos) (5).png" Stretch="Fill"/>
-        <Image Margin="442,240,38,461" Source="/IMG/23.png" Stretch="Fill"/>
+        <Image Margin="442,240,38,461" Source="/IMG/23.png" 
+               Width="470"
+               Height="260"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"/>
 
         <!-- Линия 3: Между третьей парой изображений -->
         <Line X1="36" X2="306" 
               Y1="405" Y2="405" 
               Stroke="#FF775D49" 
               StrokeThickness="4"
-              Margin="382,160,10,100"/>
+              Margin="282,160,10,100"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"/>
 
         <!-- Вертикальная линия 3 -->
         <Line X1="591" X2="591" 
               Y1="580" Y2="645" 
               Stroke="#FF775D49" 
-              StrokeThickness="4"/>
+              StrokeThickness="4"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Top"
+               Margin="-252,3,10,100"/>
 
-        <Image Margin="33,404,398,159" Source="/IMG/24.png" Stretch="Fill"/>
-        <Image Margin="392,630,69,0" Source="/IMG/25.png" Stretch="Fill"/>
+        <Image Margin="33,404,398,159" Source="/IMG/24.png"  
+               Width="570"
+               Height="360"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"/>
+
+        <Image Margin="392,630,69,0" Source="/IMG/25.png"  
+               Width="480"
+               Height="300"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"/>
+
 
         <!-- Овал 1: "150 ml" над Drink List -->
-        <Grid Margin="210,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="80">
-            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="-59,32,70,0"/>
+        <Grid Margin="-280,310,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Height="80">
+            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="-59,40,72,6"/>
             <TextBlock Text="150 ml" 
                        FontFamily="Georgia" 
                        FontSize="14" 
                        Foreground="#FFD700" 
                        FontWeight="Bold"
-                       HorizontalAlignment="Left" 
+                       HorizontalAlignment="Center" 
                        VerticalAlignment="Top"
-                       TextAlignment="Center" Margin="-28,48,0,0"/>
+                       TextAlignment="Center" Margin="-129,48,0,0" Height="22"/>
         </Grid>
 
         <!-- Овал 2: "Coffee as a gift" над Dessert -->
-        <Grid Margin="430,480,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Height="90">
-            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="114,38,-81,0"/>
+        <Grid Margin="190,480,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="140" Height="90">
+            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="116,45,-82,11"/>
         </Grid>
 
         <!-- Овал 3: "10% after 20:00" над Bakery -->
-        <Grid Margin="120,720,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Height="100">
-            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="142,40,-112,10"/>
+        <Grid Margin="-420,720,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="160" Height="100">
+            <Ellipse Fill="#FF775D49" Stroke="#C48F4B" StrokeThickness="2" Margin="138,38,-109,19"/>
         </Grid>
 
-        <TextBlock HorizontalAlignment="Left" Text="Bakery" 
+        <TextBlock HorizontalAlignment="Center" Text="Bakery" 
                            FontFamily="Georgia" 
                            FontSize="24" 
                            Foreground="#6A4F3D" 
                            FontWeight="Bold"
-                           VerticalAlignment="Top" Margin="140,778,0,0" RenderTransformOrigin="0.676,0.955"/>
-        <TextBlock HorizontalAlignment="Left" Text="Dessert" 
+                           VerticalAlignment="Top" Margin="-450,770,0,0" RenderTransformOrigin="0.676,0.955"/>
+        <TextBlock HorizontalAlignment="Center" Text="Dessert" 
                            FontFamily="Georgia" 
                            FontSize="24" 
                            Foreground="#6A4F3D" 
                            FontWeight="Bold"
-                           VerticalAlignment="Top" Margin="427,532,0,0"/>
-        <TextBlock HorizontalAlignment="Left" Text="Drink List" 
+                           VerticalAlignment="Top" Margin="136,531,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Text="Drink List" 
                            FontFamily="Georgia" 
                            FontSize="24" 
                            Foreground="#6A4F3D" 
                            FontWeight="Bold"
-                           VerticalAlignment="Top" Margin="271,358,0,0"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,827,0,0" TextWrapping="Wrap" Text="KHACHAPURI" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,846,0,0" TextWrapping="Wrap" Text="HOT DOG" VerticalAlignment="Top" Height="36" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,864,0,0" TextWrapping="Wrap" Text="SAMSA" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16"  Margin="324,827,0,0" TextWrapping="Wrap" Text="200 RUB" VerticalAlignment="Top" Height="37" Width="132" RenderTransformOrigin="0.773,1.082"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16"  Margin="324,846,0,0" TextWrapping="Wrap" Text="100 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="326,864,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="426,586,0,0" TextWrapping="Wrap" Text="TIRAMISU" VerticalAlignment="Top" Height="37" Width="132" RenderTransformOrigin="0.939,0.542"/>
-        <TextBlock HorizontalAlignment="Left"  Foreground="#6A4F3D" FontSize="16" Margin="427,604,0,0" TextWrapping="Wrap" Text="BROWNIE" VerticalAlignment="Top" Height="38" Width="132"/>
-        <TextBlock HorizontalAlignment="Left"  Foreground="#6A4F3D" FontSize="16" Margin="427,623,0,0" TextWrapping="Wrap" Text="NAPOLEON" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left"  Foreground="#6A4F3D" FontSize="16"  Margin="602,586,0,0" TextWrapping="Wrap" Text="400 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left"  Foreground="#6A4F3D" FontSize="16" Margin="602,604,0,0" TextWrapping="Wrap" Text="400 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left"  Foreground="#6A4F3D" FontSize="16" Margin="602,623,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,404,0,0" TextWrapping="Wrap" Text="CAPPUCCINO" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,423,0,0" TextWrapping="Wrap" Text="GREEN TEA" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="134,441,0,0" TextWrapping="Wrap" Text="СОСОA" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="316,404,0,0" TextWrapping="Wrap" Text="200 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="316,422,0,0" TextWrapping="Wrap" Text="100 RUB" VerticalAlignment="Top" Height="38" Width="132"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="16" Margin="316,442,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+                           VerticalAlignment="Top" Margin="-150,354,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,827,0,0" TextWrapping="Wrap" Text="KHACHAPURI" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,846,0,0" TextWrapping="Wrap" Text="HOT DOG" VerticalAlignment="Top" Height="36" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,864,0,0" TextWrapping="Wrap" Text="SAMSA" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16"  Margin="-40,827,0,0" TextWrapping="Wrap" Text="200 RUB" VerticalAlignment="Top" Height="37" Width="132" RenderTransformOrigin="0.773,1.082"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16"  Margin="-40,846,0,0" TextWrapping="Wrap" Text="100 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-40,864,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="CENTER" Foreground="#6A4F3D" FontSize="16" Margin="166,586,0,0" TextWrapping="Wrap" Text="TIRAMISU" VerticalAlignment="Top" Height="37" Width="132" RenderTransformOrigin="0.939,0.542"/>
+        <TextBlock HorizontalAlignment="Center"  Foreground="#6A4F3D" FontSize="16" Margin="166,604,0,0" TextWrapping="Wrap" Text="BROWNIE" VerticalAlignment="Top" Height="38" Width="132"/>
+        <TextBlock HorizontalAlignment="Center"  Foreground="#6A4F3D" FontSize="16" Margin="166,623,0,0" TextWrapping="Wrap" Text="NAPOLEON" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center"  Foreground="#6A4F3D" FontSize="16"  Margin="510,586,0,0" TextWrapping="Wrap" Text="400 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center"  Foreground="#6A4F3D" FontSize="16" Margin="510,604,0,0" TextWrapping="Wrap" Text="400 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center"  Foreground="#6A4F3D" FontSize="16" Margin="510,623,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,404,0,0" TextWrapping="Wrap" Text="CAPPUCCINO" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,423,0,0" TextWrapping="Wrap" Text="GREEN TEA" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-420,441,0,0" TextWrapping="Wrap" Text="СОСОA" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-40,404,0,0" TextWrapping="Wrap" Text="200 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-40,422,0,0" TextWrapping="Wrap" Text="100 RUB" VerticalAlignment="Top" Height="38" Width="132"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="16" Margin="-40,442,0,0" TextWrapping="Wrap" Text="300 RUB" VerticalAlignment="Top" Height="37" Width="132"/>
         <TextBlock Text="10% after 20:00" 
                        FontFamily="Georgia" 
                        FontSize="14" 
                        Foreground="#FFD700" 
                        FontWeight="Bold"
-                       HorizontalAlignment="Left" 
+                       HorizontalAlignment="Center" 
                        VerticalAlignment="Top"
                        TextAlignment="Center"
                        TextWrapping="Wrap"
-                       Margin="270,778,0,0"/>
+                       Margin="-176,770,0,0"/>
         <TextBlock Text="Coffee as a gift" 
                        FontFamily="Georgia" 
                        FontSize="12" 
                        Foreground="#FFD700" 
                        FontWeight="Bold"
-                       HorizontalAlignment="Left" 
+                       HorizontalAlignment="Center" 
                        VerticalAlignment="Top"
                        TextAlignment="Center"
                        TextWrapping="Wrap"
-                       Margin="551,539,0,0"/>
-        <Image Margin="20,10,723,873" Source="/IMG/exit.png" Stretch="Fill" RenderTransformOrigin="0.61,0.79"/>
+                       Margin="0,534,-380,0" Width="124"/>
+        <Button  BorderThickness="0" Click="PhotoButton_Click11" Width="60" Height="70" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 20 0 0">
+            <Button.Background>
+                <ImageBrush ImageSource="/IMG/exit.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

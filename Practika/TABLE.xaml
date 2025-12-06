@@ -1,0 +1,239 @@
+﻿<Window x:Class="Practika.TABLE"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TABLE" Height="450" Width="800">
+    <Grid Background="#FFCAEDE9">
+
+        <!-- Заголовок -->
+        <TextBlock HorizontalAlignment="Center" Margin="0,16,0,0"
+                   Foreground="#6A4F3D" FontSize="34" Text="Tables" VerticalAlignment="Top"/>
+
+        <!-- Кнопка выхода -->
+        <Button Margin="23,10,0,0" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Click="ExitButton_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Image Source="/IMG/exit.png" Stretch="Fill"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Прямоугольники-комнаты как кнопки -->
+        <Button Margin="0,82,0,0"  Width="130" Height="60" Background="#DAC7B3" BorderBrush="#FF4A3416" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+                Click="MainSpace_Click"/>
+
+        <!-- Подписи комнат -->
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="18"
+                   Margin="0,100,0,0" Text="MAIN ROOM" VerticalAlignment="Top"/>
+
+        <!-- Таблицы как кнопки (овалы) -->
+        <!-- Стол 1 (Main Room) -->
+        <Button Width="76" Height="123" Margin="37,194,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+                Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                             Stroke="{TemplateBinding BorderBrush}" 
+                             StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+
+        <!-- Стол 2 (Main Room) -->
+        <Button Width="180" Height="60" Margin="0,226,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+                Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table2_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                             Stroke="{TemplateBinding BorderBrush}" 
+                             StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Стол 3 (Open Space) -->
+        <Button Width="76" Height="123" Margin="0,196,60,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                Background="#FFDAC7B3" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table3_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                             Stroke="{TemplateBinding BorderBrush}" 
+                             StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Нумерация столов (исправлены позиции) -->
+        <TextBlock HorizontalAlignment="Left" Foreground="#6A4F3D" FontSize="18" 
+                   Margin="70,244,0,0" Text="1" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="#6A4F3D" FontSize="18" 
+                   Margin="0,244,0,0" Text="2" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Right" Foreground="#6A4F3D" FontSize="18" 
+                   Margin="0,244,90,0" Text="3" VerticalAlignment="Top"/>
+
+        <!-- Нижний прямоугольник с текстом -->
+        <Button Margin="220,348,220,24" Background="#DAC7B3" BorderBrush="#FF4A3416" BorderThickness="1" 
+                Click="SelectTable_Click" Width="290" Height="60">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" 
+                       Foreground="#6A4F3D" FontSize="18" Text="SELECT THE TABLE"/>
+        </Button>
+        <Button Width="38" Height="60" Margin="118,194,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="118,259,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="-180,171,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.576,0.285">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform X="25.63" Y="17.927"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="-30,171,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="100,171,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="-180,281,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="-30,281,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="38" Height="60" Margin="100,281,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"
+            Background="White" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table1_Click" RenderTransformOrigin="0.684,0.642">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="91.628"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+
+            </Button.Template>
+        </Button>
+        <Button Width="41" Height="59" Margin="0,195,141,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+            Background="#FFDAC7B3" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table3_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Width="41" Height="58" Margin="0,261,141,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+            Background="#FFDAC7B3" BorderBrush="#FF4A3416" BorderThickness="1" Click="Table3_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Ellipse Fill="{TemplateBinding Background}" 
+                        Stroke="{TemplateBinding BorderBrush}" 
+                        StrokeThickness="1"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Window>

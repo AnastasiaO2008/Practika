@@ -15,12 +15,23 @@
     <None Remove="IMG\13.png" />
     <None Remove="IMG\14.png" />
     <None Remove="IMG\2.png" />
+    <None Remove="IMG\21.png" />
+    <None Remove="IMG\22.png" />
+    <None Remove="IMG\23.png" />
+    <None Remove="IMG\24.png" />
+    <None Remove="IMG\25.png" />
+    <None Remove="IMG\33.png" />
+    <None Remove="IMG\34.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %281%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %282%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %283%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %284%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29 %285%29.png" />
     <None Remove="IMG\image-no-bg-preview %28carve.photos%29.png" />
+    <None Remove="IMG\Image1.png" />
+    <None Remove="IMG\Image2.png" />
+    <None Remove="IMG\Image3.png" />
+    <None Remove="IMG\Image4.png" />
     <None Remove="IMG\pfpfpf.png" />
     <None Remove="IMG\Screenshot 2025-11-29 114302-edited-free %28carve.photos%29.png" />
     <None Remove="IMG\Screenshot 2025-11-29 114302-edited-free %28carve_ph-edited-free %28carve.photos%29.png" />
@@ -53,6 +64,27 @@
     <Resource Include="IMG\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="IMG\21.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\22.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\23.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\25.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\33.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\34.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="IMG\image-no-bg-preview (carve.photos) (1).png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -72,6 +104,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="IMG\image-no-bg-preview (carve.photos).png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Image1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Image2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Image3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="IMG\Image4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="IMG\pfpfpf.png">
